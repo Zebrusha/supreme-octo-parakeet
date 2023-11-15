@@ -41,7 +41,7 @@ public class BonusServiceTest {
 
         long amount = 100;
         boolean registered = true;
-        long expected = 1;
+        long expected = 3;
 
         long actual = service.calculate(amount, registered);
 
@@ -54,7 +54,7 @@ public class BonusServiceTest {
 
         long amount = 100;
         boolean registered = false;
-        long expected = 3;
+        long expected = 1;
 
         long actual = service.calculate(amount, registered);
 
